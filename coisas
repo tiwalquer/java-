@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner; //o leia (biblioteca)
+public class Novo1 {
+ public static void main (String[] args){
+   int idade ;// declaraçao de varaiavel
+   System.out.println("informe a sua idade ");// escreva
+   Scanner scanner = new Scanner(System.in);//puxa da biblioteca do leia 
+   idade= scanner.nextInt();//leia
+   if(idade>=18){// se 
+       System.out.print("maior de idade ");//escreva
+   }else{// se nao
+       System.out.print("menos de idade ");// escreva
+   }
+
+    }
+}
