@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner; //o leia (biblioteca)
-public class Novo1 {
- public static void main (String[] args){
+public class Novo1 {// aonde ele vai coloca
+ public static void main (String[] args){// como ele vai ser realizado que codico
    int idade ;// declaraçao de varaiavel
    System.out.println("informe a sua idade ");// escreva
    Scanner scanner = new Scanner(System.in);//puxa da biblioteca do leia 
